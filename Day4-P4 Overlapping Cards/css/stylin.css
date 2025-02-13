@@ -1,0 +1,48 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    display: inline-block;
+    margin: 10px 100px 10px 100px;
+}
+ .hand{
+    display: inline-block;
+    margin: 10px 100px 10px 100px;
+ }
+.card{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    margin-left: -20%;
+    border: 2px solid black;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(215, 192, 236);
+}
+
+.card h2{
+    margin-top: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: bisque;  
+}
+
+.card p{
+    text-align: center;
+    font-weight: light;
+    font-size: 15px;
+    padding: 15px;
+
+}
+
+.fakeimg{
+    height: 40%;
+    background-color: blueviolet;
+    color: antiquewhite;
+    margin: auto;
+    box-shadow: 7px 4px 8px rgb(66, 56, 56);
+}
